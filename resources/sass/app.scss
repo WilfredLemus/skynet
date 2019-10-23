@@ -1,0 +1,152 @@
+
+// // Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// // Variables
+// @import 'variables';
+
+// // Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+
+// .navbar-laravel {
+//   background-color: #fff;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// }
+
+// Loading
+@import 'loading';
+
+// Bootstrap
+@import "~bootstrap/dist/css/bootstrap.css";
+
+// Font-Awesome
+@import "~font-awesome/scss/font-awesome";
+
+// Ionicons
+@import "~ionicons/dist/css/ionicons.css";
+
+// iCheck
+@import "~icheck/skins/square/blue.css";
+
+// Bootstrap Datepicker
+@import "~bootstrap-datepicker/dist/css/bootstrap-datepicker3.css";
+
+// Bootstrap-daterangepicker
+@import "~bootstrap-daterangepicker/daterangepicker.css";
+
+// Bootstrap DataTable
+@import "~datatables.net-bs/css/dataTables.bootstrap.css";
+
+// Select2
+@import "~select2/dist/css/select2.css";
+
+// AdminLTE
+@import "~admin-lte/dist/css/AdminLTE";
+@import "~admin-lte/dist/css/skins/_all-skins";
+
+.dataTables_wrapper {
+    position: relative;
+    clear: both;
+    *zoom: 1;
+    zoom: 1;
+}
+
+.dataTables_wrapper .dataTables_length {
+    float: left;
+}
+
+.dt-buttons {
+    margin-left: 1em;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    float: right;
+    text-align: right;
+}
+
+.dataTables_wrapper .dataTables_info {
+    clear: both;
+    float: left;
+    padding-top: 0.755em;
+}
+
+.password .glyphicon {
+    cursor:pointer;
+    pointer-events: all;
+}
+
+.expediente-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pb-1 {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border: 0.5px solid #adadad;
+    // border-radius: 2px;
+}
+
+@import "~datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.css";
+// Dropzone
+// @import '~dropzone/dist/min/dropzone.min.css';
+
+// .dropzone {
+//     margin-bottom: 10px;
+//     min-height: auto;
+//     background-color: #f4f5f7;
+//     border: 1px solid #d2d6de;
+//     padding: 0;
+// }
+
+// .dz-default .dz-message {
+//     margin: 1em 0;
+// }
+
+// import 'filepond/dist/filepond.min.css';
+// Bootstrap File Input
+@import '~bootstrap-fileinput/css/fileinput.min.css';
+
+.thumb{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.chat .item {
+    margin-top: 10px;
+}
+
+.chat > hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+// Viewerjs
+@import '~viewerjs/src/css/viewer.scss';
+
+.expediente-cerrado-panel {
+    width: 100%;
+    padding: 7em;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgba(0,0,0,.4);
+    z-index: 10000;
+    cursor: not-allowed;
+}
+
+.expediente-cerrado-form {
+    margin-top: 0.5em;
+    opacity: 0.3;
+    z-index: -1;
+    margin-top: -18%;
+}
+
+.table-color-green {
+    background-color: rgba(12, 160, 7, 0.596);
+}
+
+.table-color-red {
+    background-color: rgba(209, 9, 9, 0.596);
+}

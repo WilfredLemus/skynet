@@ -1,0 +1,48 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "admin-lte": "^2.4.8",
+        "axios": "^0.18",
+        "bootstrap": "^3.3.7",
+        "cross-env": "^5.1",
+        "jquery": "^3.2",
+        "laravel-mix": "^2.0",
+        "lodash": "^4.17.5",
+        "popper.js": "^1.12",
+        "vue": "^2.5.17",
+        "fastclick": "^1.0.6",
+        "font-awesome": "^4.7.0",
+        "icheck": "^1.0.2",
+        "ionicons": "^3.0.0",
+        "jquery-slimscroll": "^1.3.8"
+    },
+    "dependencies": {
+        "bootstrap-daterangepicker": "^3.0.3",
+        "bootstrap-fileinput": "^4.5.1",
+        "chart.js": "^2.7.3",
+        "chartjs-plugin-colorschemes": "^0.4.0",
+        "datatables.net-bs": "^1.10.19",
+        "datatables.net-buttons-bs": "^1.5.4",
+        "datatables.net-fixedheader": "^3.1.5",
+        "datatables.net-fixedheader-bs": "^3.1.5",
+        "datetime-moment": "^1.0.0",
+        "dropzone": "^5.5.1",
+        "filepond": "^3.7.1",
+        "jszip": "^3.1.5",
+        "moment": "^2.23.0",
+        "multiselect-two-sides": "^2.5.5",
+        "pdfmake": "^0.1.39",
+        "sweetalert": "^2.1.2",
+        "sweetalert2": "^7.33.1",
+        "viewerjs": "^1.3.1"
+    }
+}
